@@ -14,6 +14,14 @@ This repository is the filing cabinet. It is not a company website. GitHub Pages
 - [How to sign](CONTRIBUTING.md)
 - [Originating LinkedIn post](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX)
 
+## Contribute
+
+Signing is the form on the [public page](https://niftyzio.github.io/recital-133-pledge/#sign). No GitHub required.
+
+To change the text, claim a crowd-sourced line, or translate: read [CONTRIBUTING.md](CONTRIBUTING.md). Open an issue first, then a small pull request. [Discussions](https://github.com/Niftyzio/recital-133-pledge/discussions) are for argument without a patch.
+
+The live letter is reviewed before it updates. This is not an unmoderated wiki.
+
 ## Sign (anyone)
 
 Use the form on the public page. Name, role, organisation. A maintainer adds you to the list after a short check.

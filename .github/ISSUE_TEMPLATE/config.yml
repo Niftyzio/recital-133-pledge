@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sign on the website
+    url: https://niftyzio.github.io/recital-133-pledge/#sign
+    about: No GitHub account needed. Use this unless you already live on GitHub.
+  - name: Discussions
+    url: https://github.com/Niftyzio/recital-133-pledge/discussions
+    about: Argue the idea here. Use an issue if you want a change merged.
