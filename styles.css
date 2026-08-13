@@ -270,6 +270,16 @@ button:hover,
   background: var(--seal-deep);
 }
 
+.cta-assurance {
+  margin: 0.85rem 0 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
 .form-status {
   min-height: 1.4rem;
   margin: 0.7rem 0 0;
