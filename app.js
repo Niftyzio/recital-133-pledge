@@ -78,11 +78,13 @@
 
   var nextField = document.getElementById("form-next");
   if (nextField && config.canonicalUrl) {
-    nextField.value = config.canonicalUrl.replace(/\/?$/, "/") + "#sign";
+    nextField.value = config.canonicalUrl.replace(/\/?$/, "/") + "thanks.html";
   }
 
   var submitTarget = config.formsubmitId || config.signatureEmail;
   var moderationUrl = (config.moderationUrl || "").replace(/\/$/, "");
+  var receivedMessage =
+    "Signature received. You did not give an email address, so nothing was sent to you. Your public name will appear after a short review.";
 
   if (form && submitTarget && !config.signFormUrl && !moderationUrl) {
     form.setAttribute("action", "https://formsubmit.co/" + encodeURIComponent(submitTarget));
@@ -100,6 +102,17 @@
     if (consentHidden) {
       consentHidden.value = consent && consent.checked ? "yes" : "no";
     }
+  }
+
+  function payloadFromForm(target) {
+    var data = {};
+    new FormData(target).forEach(function (value, key) {
+      if (key === "_next") {
+        return;
+      }
+      data[key] = value;
+    });
+    return data;
   }
 
   if (form) {
@@ -125,7 +138,7 @@
           })
           .then(function () {
             form.reset();
-            setStatus("Sent for review. It will appear on the page after the initiator publishes the name.");
+            setStatus(receivedMessage);
           })
           .catch(function () {
             setStatus("Could not send. Try again in a minute.");
@@ -139,7 +152,32 @@
         return;
       }
 
+      event.preventDefault();
       setStatus("Sending.");
+      fetch("https://formsubmit.co/ajax/" + encodeURIComponent(submitTarget), {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payloadFromForm(form)),
+      })
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Send failed");
+          }
+          return response.json();
+        })
+        .then(function (body) {
+          if (body && body.success === "false") {
+            throw new Error("Send failed");
+          }
+          form.reset();
+          setStatus(receivedMessage);
+        })
+        .catch(function () {
+          setStatus("Could not send. Try again in a minute.");
+        });
     });
   }
 
