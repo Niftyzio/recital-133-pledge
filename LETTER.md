@@ -70,7 +70,7 @@ Sara Simeone
 - [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)
 - [Code of Practice on Transparency of AI-generated Content](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)
 - [EU AI Act, Recital 133](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-133)
-- Regulation (EU) 2024/1689, Article 50 and Recital 133
+- [EU AI Act, Article 50](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)
 - [Crowd-sourced lines](SOURCES.md)
 
 Content created by Sara Simeone. Crowd-sourced by [LinkedIn users](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX). Page created by Cursor Grok 4.6.
