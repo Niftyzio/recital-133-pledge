@@ -8,7 +8,7 @@ I write as a paying customer, and as someone whose [post on this subject](https:
 
 The reaction was not “users hate transparency.” It was more precise than that. People will accept a mark when a model did the work. They will not accept a silent stamp on text they originated, directed, and only asked you to tidy.
 
-You have signed a Code of Practice that is supposed to help you comply with Article 50 of the EU AI Act. Recital 133 is not ambiguous. Machine-readable marking is not required where the AI is only helping with basic editing, or has not substantially changed the meaning of the original content. Blanket-watermarking everything is not a faithful reading of that rule. It is the cheapest way to avoid defending “substantially changed” case by case. *(LinkedIn user 3)*
+You have signed a Code of Practice that is supposed to help you comply with Article 50 of the EU AI Act. [Recital 133](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-133) is not ambiguous. Machine-readable marking is not required where the AI is only helping with basic editing, or has not substantially changed the meaning of the original content. Blanket-watermarking everything is not a faithful reading of that rule. It is the cheapest way to avoid defending “substantially changed” case by case. *(LinkedIn user 3)*
 
 An invisible watermark also fails the stated goal of the law. Article 50 is about making people aware of AI-generated content. A mark no reader can see does not inform a human. It informs a detector, later, on someone else’s terms. *(LinkedIn user 4)* That is provenance for platforms, not transparency for users.
 
@@ -69,6 +69,7 @@ Sara Simeone
 - [Originating LinkedIn post](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX)
 - [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)
 - [Code of Practice on Transparency of AI-generated Content](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)
+- [EU AI Act, Recital 133](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-133)
 - Regulation (EU) 2024/1689, Article 50 and Recital 133
 - [Crowd-sourced lines](SOURCES.md)
 

@@ -2,7 +2,7 @@
 
 **Assisted is not generated.**
 
-An independent public letter asking AI labs to respect Article 50 and Recital 133 of the EU AI Act: do not blanket-watermark human work that a model only edited.
+An independent public letter asking AI labs to respect Article 50 and [Recital 133](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-133) of the EU AI Act: do not blanket-watermark human work that a model only edited.
 
 This repository is the filing cabinet. It is not a company website. GitHub Pages serves a static page. **Signing does not require a GitHub account.**
 

@@ -8,7 +8,7 @@ I was not expecting that reaction. I thought an invisible watermark on my own th
 
 We are not against transparency. We are against a yes/no watermark that treats a coriander spelling fix the same as a fully generated article. *(LinkedIn user 1)*
 
-Article 50 of the EU AI Act is supposed to make people aware of AI-generated content. Recital 133 already draws the line: machine-readable marking is not required where AI is only helping with basic editing, or has not substantially changed the meaning of the original content. Blanket-marking everything is not compliance. It is a liability hedge, paid for by the user. *(LinkedIn user 3)*
+Article 50 of the EU AI Act is supposed to make people aware of AI-generated content. [Recital 133](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-133) already draws the line: machine-readable marking is not required where AI is only helping with basic editing, or has not substantially changed the meaning of the original content. Blanket-marking everything is not compliance. It is a liability hedge, paid for by the user. *(LinkedIn user 3)*
 
 An invisible mark does not inform a reader. It informs a detector. *(LinkedIn user 4)* That is not the transparency the law describes.
 
@@ -43,6 +43,7 @@ Anthropic, and every signatory of the EU Code of Practice on Transparency of AI-
 - [Originating LinkedIn post](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX)
 - [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)
 - [Code of Practice on Transparency of AI-generated Content](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)
+- [EU AI Act, Recital 133](https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-133)
 - Regulation (EU) 2024/1689, Article 50 and Recital 133
 - [Crowd-sourced lines](SOURCES.md)
 
