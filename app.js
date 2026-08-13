@@ -92,22 +92,8 @@
 
       if (!submitTarget) {
         event.preventDefault();
-        var name = document.getElementById("name").value.trim();
-        var role = document.getElementById("role").value.trim();
-        var organisation = document.getElementById("organisation").value.trim();
-        var body =
-          "I have read the Recital 133 Pledge and I sign.%0D%0A%0D%0AName: " +
-          encodeURIComponent(name) +
-          "%0D%0ARole: " +
-          encodeURIComponent(role) +
-          "%0D%0AOrganisation: " +
-          encodeURIComponent(organisation);
-        window.location.href =
-          "mailto:sara@nocodelab.ai?subject=" +
-          encodeURIComponent("Recital 133 Pledge signature") +
-          "&body=" +
-          body;
-        setStatus("Your email app should open with the signature filled in. Send it, and a maintainer will add your name.");
+        window.location.href = "https://github.com/Niftyzio/recital-133-pledge/issues/new?template=sign.md";
+        setStatus("The form is not wired. Use the GitHub sign template instead.");
         return;
       }
 

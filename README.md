@@ -18,7 +18,7 @@ This repository is the filing cabinet. It is not a company website. GitHub Pages
 
 Use the form on the public page. Name, role, organisation. A maintainer adds you to the list after a short check.
 
-If the page is not live yet, email the same details to [sara@nocodelab.ai](mailto:sara@nocodelab.ai).
+If the page is not live yet, open a GitHub issue with the Sign the pledge template.
 
 GitHub issues and pull requests are optional, for people who already live here.
 
