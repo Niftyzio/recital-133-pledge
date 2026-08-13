@@ -8,9 +8,11 @@ Maintainer: Sara Simeone. PRs are reviewed before they hit the live page.
 
 Use the form on the [public page](https://niftyzio.github.io/recital-133-pledge/#sign).
 
-Your message is emailed to the initiator. Names are not published and not stored in this repository. No GitHub account required. No product, no newsletter, no lead form.
+We do not collect, retain, or store email addresses. Your public name is first name and surname initial, unless you tick **Publish my full name**.
 
-Do not open a pull request or issue that adds a name to the repo.
+No GitHub account required. No product, no newsletter, no lead form.
+
+Do not open a pull request that dumps a mailing list or full names without consent.
 
 ## 2. Claim a crowd-sourced line
 

@@ -29,6 +29,7 @@
         <a href="#sources">Sources</a>
         <a href="https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX" rel="noopener noreferrer" target="_blank">Original post</a>
         <a href="#sign">Sign</a>
+        <a href="#names">Names</a>
         <a href="https://github.com/Niftyzio/recital-133-pledge/blob/main/CONTRIBUTING.md" rel="noopener noreferrer" target="_blank">Contribute</a>
       </nav>
     </header>
@@ -172,6 +173,17 @@
           </ol>
         </section>
 
+        <section id="names">
+          <h2>Who has signed</h2>
+          <p>
+            Names are shown as first name and surname initial, unless the person asked for their full name. We do not collect email addresses. We do not retain or store emails on this site, in this repository, or in a database.
+          </p>
+          <p>
+            <span id="signatory-count">0</span> name<span id="signatory-count-label">s</span>
+          </p>
+          <ul class="signatories" id="signatory-list"></ul>
+        </section>
+
         <section>
           <h2>References</h2>
           <ol class="refs">
@@ -193,7 +205,7 @@
         <p class="note">No GitHub account required</p>
         <h2>Sign the pledge</h2>
         <p>
-          Name, role, organisation. Your message is emailed to the initiator. Names are not published and not stored on this site.
+          Name, role, organisation. We do not collect email addresses. No emails are retained or stored anywhere on this site or in the repository. Your name appears as first name and surname initial, unless you ask for the full name.
         </p>
         <iframe id="form-embed" title="Signature form" hidden width="100%" height="420"></iframe>
         <form id="sign-form">
@@ -206,14 +218,19 @@
           <input id="role" name="role" type="text" required />
           <label for="organisation">Organisation (optional)</label>
           <input id="organisation" name="organisation" type="text" />
-          <label for="profile">Public profile URL (optional)</label>
-          <input id="profile" name="profile" type="url" placeholder="https://" />
+          <label class="consent">
+            <input id="publish-full-name" name="publish_full_name" type="checkbox" value="yes" />
+            <span>Publish my full name, not first name and surname initial.</span>
+          </label>
           <label class="consent">
             <input id="consent" name="consent" type="checkbox" required />
             <span>I have read the pledge and I sign in my own name.</span>
           </label>
           <button type="submit">Send my signature</button>
           <p class="cta-assurance">No product, no newsletter, no lead form.</p>
+          <p class="disclaimer">
+            Disclaimer: we do not collect, retain, or store email addresses anywhere. FormSubmit sends the initiator a one-off notice so the public name can be added. That notice is not kept as a list.
+          </p>
           <p class="form-status" id="form-status" role="status"></p>
         </form>
       </aside>
@@ -227,11 +244,11 @@
         Page created by Cursor Grok 4.6.
       </p>
       <p>
-        Not affiliated with any AI lab. No product, no newsletter, no lead form.
+        Not affiliated with any AI lab. No product, no newsletter, no lead form. No emails collected or stored.
       </p>
       <p>
         Source files: <a href="PLEDGE.md">PLEDGE.md</a> · <a href="LETTER.md">LETTER.md</a> ·
-        <a href="SOURCES.md">SOURCES.md</a> ·
+        <a href="SOURCES.md">SOURCES.md</a> · <a href="SIGNATORIES.md">SIGNATORIES.md</a> ·
         <a href="https://github.com/Niftyzio/recital-133-pledge/blob/main/CONTRIBUTING.md">Contribute</a> ·
         <a href="https://github.com/Niftyzio/recital-133-pledge/discussions">Discussions</a>
       </p>

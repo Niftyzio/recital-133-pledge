@@ -15,7 +15,7 @@ This repository is the filing cabinet. It is not a company website. GitHub Pages
 
 ## Contribute
 
-Signing is the form on the [public page](https://niftyzio.github.io/recital-133-pledge/#sign). No GitHub required. Names are emailed to the initiator, not stored in this repo.
+Signing is the form on the [public page](https://niftyzio.github.io/recital-133-pledge/#sign). No GitHub required. We do not collect or store emails. Public names are first name and surname initial, unless the person asks for their full name.
 
 To change the text, claim a crowd-sourced line, or translate: read [CONTRIBUTING.md](CONTRIBUTING.md). Open an issue first, then a small pull request. [Discussions](https://github.com/Niftyzio/recital-133-pledge/discussions) are for argument without a patch.
 
@@ -23,7 +23,7 @@ The live letter is reviewed before it updates. This is not an unmoderated wiki.
 
 ## Sign (anyone)
 
-Use the form on the public page. The only copy is the email it sends. If that email arrives, the form worked. If it does not, the form failed.
+Use the form on the public page. We do not collect or store emails. If a notice arrives, the form worked. Public names are first name and surname initial, unless the person asked for their full name.
 
 ## Run locally
 

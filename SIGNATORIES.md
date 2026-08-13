@@ -1,5 +1,7 @@
-# Signatures
+# Names
 
-Names are **not** stored in this repository and are **not** published on the page.
+Public names are shown as **first name and surname initial**, unless the person asked for their full name.
 
-The form emails the initiator. If that email arrives, the form worked. If it does not, the form failed. There is no second list, spreadsheet, or database.
+We do not collect email addresses. We do not retain or store emails on this site, in this repository, or in a database.
+
+`signatories.json` holds only the public display name, role, and optional organisation. No email field. No profile URL.

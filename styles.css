@@ -280,6 +280,12 @@ button:hover,
   color: var(--ink);
 }
 
+.disclaimer {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
 .form-status {
   min-height: 1.4rem;
   margin: 0.7rem 0 0;
