@@ -72,8 +72,13 @@
     }
   }
 
-  if (form && config.signatureEmail && !config.signFormUrl) {
-    form.setAttribute("action", "https://formsubmit.co/" + encodeURIComponent(config.signatureEmail));
+  var nextField = document.getElementById("form-next");
+  if (nextField && config.canonicalUrl) {
+    nextField.value = config.canonicalUrl.replace(/\/?$/, "/") + "#sign";
+  }
+
+  if (form && config.formsubmitId && !config.signFormUrl) {
+    form.setAttribute("action", "https://formsubmit.co/" + encodeURIComponent(config.formsubmitId));
     form.setAttribute("method", "POST");
   }
 
@@ -83,7 +88,7 @@
         return;
       }
 
-      if (!config.signatureEmail) {
+      if (!config.formsubmitId) {
         event.preventDefault();
         var name = document.getElementById("name").value.trim();
         var role = document.getElementById("role").value.trim();
@@ -104,7 +109,7 @@
         return;
       }
 
-      setStatus("Sending. Check your inbox if the host asks you to confirm the first delivery.");
+      setStatus("Sending.");
     });
   }
 
