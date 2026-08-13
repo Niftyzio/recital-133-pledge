@@ -2,6 +2,8 @@
 
 Sentences marked **LinkedIn user 1**, **2**, and so on come from public comments on [Sara Simeone’s LinkedIn post of 12 August 2026](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX). Names are withheld unless those people ask to be named. If you were in that thread and want your name on a line, say so when you sign.
 
+These ten lines are not a ranking of the thread. They are the comments that turned into an ask: assisted vs generated, provenance states, liability hedge, invisible marks, spell-check, token-shifting, code, who owns the thinking, and the selection of what to keep. Agreement, thanks, and workaround talk stayed in the thread. The coriander line is the exception, because it became the example.
+
 1. **LinkedIn user 1** — The coriander spelling-fix example: a yes/no watermark that treats a light edit the same as a fully generated article.
 2. **LinkedIn user 2** — AI-generated and AI-assisted are different acts: writing the whole piece, correcting grammar, restructuring a human draft.
 3. **LinkedIn user 3** — Blanket-watermarking is a liability hedge, not a reading of Article 50.
