@@ -4,7 +4,7 @@
 
 Drafted from the public comments on [Sara Simeone’s LinkedIn post of 12 August 2026](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX), and from the people who argued there in good faith. This is not one person’s private problem. It is a shared one. Sentences taken from that thread are marked LinkedIn user 1, 2, and so on. Names are withheld unless those people ask to be named. See [SOURCES.md](SOURCES.md).
 
-I was not expecting that reaction. I thought an invisible watermark on my own thinking was a niche complaint. Hundreds of comments later, from engineers, founders, lawyers, writers, job seekers and operators, it is obvious: paying customers will accept a mark when a model did the work. They will not accept a silent stamp on text they originated, directed, and only asked a model to tidy.
+I was not expecting that reaction. I thought an invisible watermark on my own thinking was a niche complaint. Hundreds of comments later, from engineers, founders, lawyers, writers, job seekers and operators, it is obvious: paying customers will accept a mark when a model did the work. They will not accept a silent stamp on text they originated, directed, and only asked a model to tidy. Those comments gave me the courage to create this page. I am not the only one who wants more reassurance and clarity on this.
 
 We are not against transparency. We are against a yes/no watermark that treats a coriander spelling fix the same as a fully generated article. *(LinkedIn user 1)*
 
