@@ -312,8 +312,27 @@ footer {
   color: var(--ink-soft);
 }
 
-.refs {
-  padding-left: 1.1rem;
+.cite {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72em;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule);
+}
+
+.cite:hover {
+  color: var(--seal);
+}
+
+ol.sources {
+  padding-left: 1.2rem;
+}
+
+ol.sources li {
+  margin-bottom: 0.85rem;
 }
 
 @media (max-width: 860px) {
