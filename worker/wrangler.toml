@@ -1,0 +1,7 @@
+name = "recital-133-pledge"
+main = "index.js"
+compatibility_date = "2026-08-13"
+
+[vars]
+GITHUB_REPO = "Niftyzio/recital-133-pledge"
+CANONICAL_URL = "https://niftyzio.github.io/recital-133-pledge/"

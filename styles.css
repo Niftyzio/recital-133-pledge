@@ -286,6 +286,14 @@ button:hover,
   color: var(--ink-soft);
 }
 
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .form-status {
   min-height: 1.4rem;
   margin: 0.7rem 0 0;

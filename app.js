@@ -82,8 +82,9 @@
   }
 
   var submitTarget = config.formsubmitId || config.signatureEmail;
+  var moderationUrl = (config.moderationUrl || "").replace(/\/$/, "");
 
-  if (form && submitTarget && !config.signFormUrl) {
+  if (form && submitTarget && !config.signFormUrl && !moderationUrl) {
     form.setAttribute("action", "https://formsubmit.co/" + encodeURIComponent(submitTarget));
     form.setAttribute("method", "POST");
   }
@@ -91,6 +92,29 @@
   if (form) {
     form.addEventListener("submit", function (event) {
       if (config.signFormUrl) {
+        return;
+      }
+
+      if (moderationUrl) {
+        event.preventDefault();
+        setStatus("Sending.");
+        fetch(moderationUrl + "/sign", {
+          method: "POST",
+          body: new FormData(form),
+        })
+          .then(function (response) {
+            if (!response.ok) {
+              throw new Error("Send failed");
+            }
+            return response.json();
+          })
+          .then(function () {
+            form.reset();
+            setStatus("Sent for review. It will appear on the page after the initiator publishes the name.");
+          })
+          .catch(function () {
+            setStatus("Could not send. Try again in a minute.");
+          });
         return;
       }
 

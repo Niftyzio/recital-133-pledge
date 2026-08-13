@@ -4,7 +4,8 @@ window.PLEDGE_CONFIG = {
   signatureEmail: "sara@nocodelab.ai",
   /* Optional FormSubmit random id, once the nocodelab.ai inbox is activated. */
   formsubmitId: "",
-  /* Optional: paste a Google Form or Tally URL to embed instead of the on-page form. */
+  /* Review worker. When set, signatures go here instead of FormSubmit. */
+  moderationUrl: "",
   signFormUrl: "",
   /* After signing, send people back here. GitHub Pages lives at this path, not the domain root. */
   canonicalUrl: "https://niftyzio.github.io/recital-133-pledge/",
