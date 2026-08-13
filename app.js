@@ -89,8 +89,23 @@
     form.setAttribute("method", "POST");
   }
 
+  function syncConsentFields() {
+    var publish = document.getElementById("publish-full-name");
+    var publishHidden = document.getElementById("publish-full-name-hidden");
+    var consent = document.getElementById("consent");
+    var consentHidden = document.getElementById("consent-hidden");
+    if (publishHidden) {
+      publishHidden.value = publish && publish.checked ? "yes" : "no";
+    }
+    if (consentHidden) {
+      consentHidden.value = consent && consent.checked ? "yes" : "no";
+    }
+  }
+
   if (form) {
     form.addEventListener("submit", function (event) {
+      syncConsentFields();
+
       if (config.signFormUrl) {
         return;
       }

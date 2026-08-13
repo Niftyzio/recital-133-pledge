@@ -231,12 +231,14 @@
             <label for="website">Website</label>
             <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
           </div>
+          <input type="hidden" name="publish_full_name" id="publish-full-name-hidden" value="no" />
+          <input type="hidden" name="consent" id="consent-hidden" value="no" />
           <label class="consent">
-            <input id="publish-full-name" name="publish_full_name" type="checkbox" value="yes" />
+            <input id="publish-full-name" type="checkbox" />
             <span>Publish my full name, not first name and surname initial.</span>
           </label>
           <label class="consent">
-            <input id="consent" name="consent" type="checkbox" required />
+            <input id="consent" type="checkbox" required />
             <span>I have read the pledge and I sign in my own name.</span>
           </label>
           <button type="submit">Send my signature</button>
