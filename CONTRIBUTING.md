@@ -6,13 +6,11 @@ Maintainer: Sara Simeone. PRs are reviewed before they hit the live page.
 
 ## 1. Sign (anyone)
 
-Use the form on the [public page](https://niftyzio.github.io/recital-133-pledge/#sign). Name, role, organisation. A maintainer adds you after a short check.
+Use the form on the [public page](https://niftyzio.github.io/recital-133-pledge/#sign).
 
-No GitHub account required. No product, no newsletter, no lead form.
+Your message is emailed to the initiator. Names are not published and not stored in this repository. No GitHub account required. No product, no newsletter, no lead form.
 
-If you already use GitHub, you can instead [open a Sign issue](https://github.com/Niftyzio/recital-133-pledge/issues/new?template=sign.md) or a pull request that adds **your own** row to `SIGNATORIES.md` and `signatories.json`.
-
-Do not open a PR that adds other people without their consent.
+Do not open a pull request or issue that adds a name to the repo.
 
 ## 2. Claim a crowd-sourced line
 

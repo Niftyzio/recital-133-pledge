@@ -1,7 +1,5 @@
-# Signatories
+# Signatures
 
-Names are added after a human check. Signing does **not** require a GitHub account. Use the form on the website.
+Names are **not** stored in this repository and are **not** published on the page.
 
-| Name | Role | Organisation | Date |
-| --- | --- | --- | --- |
-| Sara Simeone | Initiator | | 2026-08-13 |
+The form emails the initiator. If that email arrives, the form worked. If it does not, the form failed. There is no second list, spreadsheet, or database.
