@@ -1,6 +1,6 @@
 # Crowd-sourced lines
 
-Sentences marked **LinkedIn user 1**, **2**, and so on come from public comments on Sara Simeone’s LinkedIn post of 12 August 2026. Names are withheld unless those people ask to be named. If you were in that thread and want your name on a line, say so when you sign.
+Sentences marked **LinkedIn user 1**, **2**, and so on come from public comments on [Sara Simeone’s LinkedIn post of 12 August 2026](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX). Names are withheld unless those people ask to be named. If you were in that thread and want your name on a line, say so when you sign.
 
 1. **LinkedIn user 1** — The coriander spelling-fix example: a yes/no watermark that treats a light edit the same as a fully generated article.
 2. **LinkedIn user 2** — AI-generated and AI-assisted are different acts: writing the whole piece, correcting grammar, restructuring a human draft.

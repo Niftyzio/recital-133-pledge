@@ -4,7 +4,7 @@
 **To:** Anthropic, and the signatories of the EU Code of Practice on Transparency of AI-generated Content, including OpenAI, Google, Meta, Microsoft, Mistral, and Cohere  
 **Re:** Machine-readable marking under Article 50(2) and Recital 133
 
-I write as a paying customer, and as someone whose post on this subject has now been read and argued over in public. Lines taken from that public thread are marked LinkedIn user 1, 2, and so on. Names are withheld unless those people ask to be named. See [SOURCES.md](SOURCES.md).
+I write as a paying customer, and as someone whose [post on this subject](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX) has now been read and argued over in public. Lines taken from that public thread are marked LinkedIn user 1, 2, and so on. Names are withheld unless those people ask to be named. See [SOURCES.md](SOURCES.md).
 
 The reaction was not “users hate transparency.” It was more precise than that. People will accept a mark when a model did the work. They will not accept a silent stamp on text they originated, directed, and only asked you to tidy.
 
@@ -66,6 +66,7 @@ Sara Simeone
 
 ## References
 
+- [Originating LinkedIn post](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX)
 - [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)
 - [Code of Practice on Transparency of AI-generated Content](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)
 - Regulation (EU) 2024/1689, Article 50 and Recital 133

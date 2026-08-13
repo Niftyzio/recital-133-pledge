@@ -2,7 +2,7 @@
 
 ## Assisted is not generated.
 
-Drafted from the public comments on Sara Simeone’s LinkedIn post of 12 August 2026, and from the people who argued there in good faith. This is not one person’s private problem. It is a shared one. Sentences taken from that thread are marked LinkedIn user 1, 2, and so on. Names are withheld unless those people ask to be named. See [SOURCES.md](SOURCES.md).
+Drafted from the public comments on [Sara Simeone’s LinkedIn post of 12 August 2026](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX), and from the people who argued there in good faith. This is not one person’s private problem. It is a shared one. Sentences taken from that thread are marked LinkedIn user 1, 2, and so on. Names are withheld unless those people ask to be named. See [SOURCES.md](SOURCES.md).
 
 I was not expecting that reaction. I thought an invisible watermark on my own thinking was a niche complaint. Hundreds of comments later, from engineers, founders, lawyers, writers, job seekers and operators, it is obvious: paying customers will accept a mark when a model did the work. They will not accept a silent stamp on text they originated, directed, and only asked a model to tidy.
 
@@ -40,6 +40,7 @@ Anthropic, and every signatory of the EU Code of Practice on Transparency of AI-
 
 ## References
 
+- [Originating LinkedIn post](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX)
 - [How Claude marks AI-generated content](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)
 - [Code of Practice on Transparency of AI-generated Content](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)
 - Regulation (EU) 2024/1689, Article 50 and Recital 133

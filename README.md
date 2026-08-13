@@ -12,6 +12,7 @@ This repository is the filing cabinet. It is not a company website. GitHub Pages
 - [Open letter to the labs](LETTER.md)
 - [Signatories](SIGNATORIES.md)
 - [How to sign](CONTRIBUTING.md)
+- [Originating LinkedIn post](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX)
 
 ## Sign (anyone)
 
