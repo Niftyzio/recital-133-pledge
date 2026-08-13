@@ -10,9 +10,9 @@ Use the form on the [public page](https://niftyzio.github.io/recital-133-pledge/
 
 We do not collect, retain, or store email addresses. Your public name is first name and surname initial, unless you tick **Publish my full name**.
 
-No GitHub account required. No product, no newsletter, no lead form.
+The initiator gets a review page: if the submitted name looks real, they press **Publish this name**. That is the only write to the list.
 
-Do not open a pull request that dumps a mailing list or full names without consent.
+No GitHub account required. No product, no newsletter, no lead form.
 
 ## 2. Claim a crowd-sourced line
 

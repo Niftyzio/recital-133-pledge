@@ -23,7 +23,7 @@ The live letter is reviewed before it updates. This is not an unmoderated wiki.
 
 ## Sign (anyone)
 
-Use the form on the public page. We do not collect or store emails. If a notice arrives, the form worked. Public names are first name and surname initial, unless the person asked for their full name.
+Use the form on the public page. We do not collect or store emails. Public names are first name and surname initial, unless the person asked for their full name. The initiator reviews the submitted name, then publishes with one button. See [worker/README.md](worker/README.md).
 
 ## Run locally
 
