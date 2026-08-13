@@ -218,8 +218,10 @@
           <input id="role" name="role" type="text" required />
           <label for="organisation">Organisation (optional)</label>
           <input id="organisation" name="organisation" type="text" />
-          <label class="hp" for="website">Website</label>
-          <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+          <div class="hp" aria-hidden="true">
+            <label for="website">Website</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </div>
           <label class="consent">
             <input id="publish-full-name" name="publish_full_name" type="checkbox" value="yes" />
             <span>Publish my full name, not first name and surname initial.</span>
