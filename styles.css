@@ -1,0 +1,338 @@
+:root {
+  --paper: #f3ead8;
+  --paper-deep: #e7dcc4;
+  --ink: #1c1712;
+  --ink-soft: #4a4036;
+  --rule: #c4b49a;
+  --seal: #9c2b1a;
+  --seal-deep: #6e1c12;
+  --white: #fbf6ea;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(255, 255, 255, 0.35), transparent 42%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 31px,
+      rgba(28, 23, 18, 0.035) 32px
+    );
+  font-family: "Literata", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 8;
+  opacity: 0.09;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+}
+
+a {
+  color: var(--seal);
+}
+
+a:hover {
+  color: var(--seal-deep);
+}
+
+.masthead {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  align-items: flex-end;
+  padding: 1.25rem 6vw 1rem;
+  border-bottom: 3px solid var(--ink);
+}
+
+.mast-kicker {
+  margin: 0;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.masthead h1 {
+  margin: 0.2rem 0 0;
+  font-family: "Fraunces", "Times New Roman", serif;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 600;
+  font-variation-settings: "SOFT" 30, "WONK" 1;
+  line-height: 1.1;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.2rem;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+nav a:hover {
+  border-bottom-color: var(--seal);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 2.5rem;
+  padding: 3rem 6vw 2.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero h2 {
+  margin: 0 0 1rem;
+  font-family: "Fraunces", serif;
+  font-size: clamp(2.4rem, 6vw, 4.6rem);
+  font-weight: 500;
+  font-style: italic;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.lede {
+  max-width: 40rem;
+  font-size: 1.2rem;
+}
+
+.stamp {
+  justify-self: end;
+  align-self: start;
+  width: 11.5rem;
+  height: 11.5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: 0.35rem double var(--seal);
+  border-radius: 50%;
+  color: var(--seal);
+  transform: rotate(-8deg);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.stamp strong {
+  display: block;
+  margin-top: 0.35rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  text-transform: none;
+  font-style: italic;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 42rem) minmax(16rem, 20rem);
+  gap: 3rem;
+  padding: 2.5rem 6vw 4rem;
+}
+
+section {
+  margin-bottom: 3.2rem;
+}
+
+section h2 {
+  margin: 0 0 1rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.85rem;
+  font-weight: 600;
+}
+
+.meta {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+ol.asks,
+ol.beliefs {
+  padding-left: 1.2rem;
+}
+
+ol.asks li,
+ol.beliefs li {
+  margin-bottom: 0.75rem;
+}
+
+blockquote.credit {
+  margin: 1.2rem 0;
+  padding: 0.9rem 1rem;
+  border-left: 3px solid var(--seal);
+  background: var(--white);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.95rem;
+}
+
+.aside {
+  position: sticky;
+  top: 1rem;
+  height: fit-content;
+  padding: 1.2rem 1.2rem 1.4rem;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  box-shadow: 6px 6px 0 rgba(28, 23, 18, 0.08);
+}
+
+.aside h2 {
+  font-size: 1.2rem;
+}
+
+.aside p,
+.aside li {
+  font-size: 0.95rem;
+}
+
+.note {
+  margin: 0 0 1rem;
+  padding: 0.65rem 0.7rem;
+  background: var(--paper-deep);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+label {
+  display: block;
+  margin: 0.85rem 0 0.25rem;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="url"] {
+  width: 100%;
+  padding: 0.55rem 0.6rem;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.consent {
+  display: flex;
+  gap: 0.55rem;
+  align-items: flex-start;
+  margin: 1rem 0;
+  font-size: 0.92rem;
+}
+
+button,
+.button {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.7rem 1.1rem;
+  border: 0;
+  background: var(--seal);
+  color: var(--white);
+  font-family: "Fraunces", serif;
+  font-size: 1.05rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover,
+.button:hover {
+  background: var(--seal-deep);
+}
+
+.form-status {
+  min-height: 1.4rem;
+  margin: 0.7rem 0 0;
+  font-size: 0.95rem;
+}
+
+.signatories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.signatories li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.signatories .who {
+  font-weight: 650;
+}
+
+.signatories .role {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.letter-meta {
+  margin-bottom: 1.2rem;
+}
+
+.letter-meta p {
+  margin: 0.2rem 0;
+}
+
+footer {
+  padding: 1.5rem 6vw 2.5rem;
+  border-top: 3px solid var(--ink);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+.refs {
+  padding-left: 1.1rem;
+}
+
+@media (max-width: 860px) {
+  .hero,
+  .layout,
+  .masthead {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stamp {
+    justify-self: start;
+    align-self: start;
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  .aside {
+    position: static;
+  }
+}
