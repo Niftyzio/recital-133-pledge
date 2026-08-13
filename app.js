@@ -77,8 +77,10 @@
     nextField.value = config.canonicalUrl.replace(/\/?$/, "/") + "#sign";
   }
 
-  if (form && config.formsubmitId && !config.signFormUrl) {
-    form.setAttribute("action", "https://formsubmit.co/" + encodeURIComponent(config.formsubmitId));
+  var submitTarget = config.formsubmitId || config.signatureEmail;
+
+  if (form && submitTarget && !config.signFormUrl) {
+    form.setAttribute("action", "https://formsubmit.co/" + encodeURIComponent(submitTarget));
     form.setAttribute("method", "POST");
   }
 
@@ -88,7 +90,7 @@
         return;
       }
 
-      if (!config.formsubmitId) {
+      if (!submitTarget) {
         event.preventDefault();
         var name = document.getElementById("name").value.trim();
         var role = document.getElementById("role").value.trim();
@@ -101,7 +103,7 @@
           "%0D%0AOrganisation: " +
           encodeURIComponent(organisation);
         window.location.href =
-          "mailto:?subject=" +
+          "mailto:sara@nocodelab.ai?subject=" +
           encodeURIComponent("Recital 133 Pledge signature") +
           "&body=" +
           body;

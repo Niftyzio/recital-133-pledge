@@ -8,7 +8,7 @@ You do **not** need a GitHub account.
 2. Fill in **Sign the pledge**: name, role, organisation.
 3. Submit. A maintainer adds you to `SIGNATORIES.md` and `signatories.json` after a short check (spam and fake names).
 
-If the on-page form is not yet wired, email the same details to Sara Simeone.
+If the on-page form is not yet wired, email the same details to [sara@nocodelab.ai](mailto:sara@nocodelab.ai).
 
 ## Optional, if you already use GitHub
 

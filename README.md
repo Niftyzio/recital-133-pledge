@@ -17,7 +17,7 @@ This repository is the filing cabinet. It is not a company website. GitHub Pages
 
 Use the form on the public page. Name, role, organisation. A maintainer adds you to the list after a short check.
 
-If the page is not live yet, email the same details to Sara Simeone.
+If the page is not live yet, email the same details to [sara@nocodelab.ai](mailto:sara@nocodelab.ai).
 
 GitHub issues and pull requests are optional, for people who already live here.
 
@@ -37,7 +37,7 @@ Then visit `http://localhost:8080`.
 2. Push the `main` branch.
 3. Settings → Pages → Deploy from branch → `main` / root.
 
-Edit `config.js` to change the FormSubmit id, the return URL (`canonicalUrl`), or to paste a Google Form / Tally URL into `signFormUrl`.
+Edit `config.js` to change the signature inbox (`signatureEmail`), the FormSubmit id once that inbox is activated, the return URL (`canonicalUrl`), or to paste a Google Form / Tally URL into `signFormUrl`.
 
 ## What this is not
 
