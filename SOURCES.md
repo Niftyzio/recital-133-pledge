@@ -12,3 +12,5 @@ Sentences marked **LinkedIn user 1**, **2**, and so on come from public comments
 8. **LinkedIn user 8** — Synonym-style marks on rigid syntax (code) can break a build.
 9. **LinkedIn user 9** — The live question is who owns the thinking.
 10. **LinkedIn user 10** — Choosing which words to keep, after a multi-turn session, is the work.
+
+Content created by Sara Simeone. Crowd-sourced by [LinkedIn users](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX). Page created by Cursor Grok 4.6.

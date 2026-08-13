@@ -40,6 +40,10 @@ Then visit `http://localhost:8080`.
 
 Edit `config.js` to change the signature inbox (`signatureEmail`), the FormSubmit id once that inbox is activated, the return URL (`canonicalUrl`), or to paste a Google Form / Tally URL into `signFormUrl`.
 
+## Credit
+
+Content created by Sara Simeone. Crowd-sourced by [LinkedIn users](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX). Page created by Cursor Grok 4.6.
+
 ## What this is not
 
 Not a NoCodeLab page. Not a petition mill. Not a request to strip watermarks. Fully generated output can be marked. Proofreading should not wear the same stamp.

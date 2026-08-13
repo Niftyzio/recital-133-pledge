@@ -312,6 +312,14 @@ footer {
   color: var(--ink-soft);
 }
 
+.colophon {
+  max-width: 42rem;
+  color: var(--ink);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
 .cite {
   font-family: "IBM Plex Mono", ui-monospace, monospace;
   font-size: 0.72em;

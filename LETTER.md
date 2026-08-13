@@ -71,3 +71,5 @@ Sara Simeone
 - [Code of Practice on Transparency of AI-generated Content](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)
 - Regulation (EU) 2024/1689, Article 50 and Recital 133
 - [Crowd-sourced lines](SOURCES.md)
+
+Content created by Sara Simeone. Crowd-sourced by [LinkedIn users](https://www.linkedin.com/posts/sarasimeone_myideasaremine-activity-7493221327546408961-bkKX). Page created by Cursor Grok 4.6.
