@@ -31,7 +31,7 @@ The Cloudflare worker in `worker/` is **off**. `moderationUrl` in `config.js` is
 
 ## Names on the page now
 
-Sara Simeone (Initiator); Antonio P. (CEO); Magnus Söderberg (CEO, Triolith Games AB); Eric H. (CEO); Bruno De Stefano (Relationship manager); Claire Owen (Founder, COCO Software); Mark H. (Inventor, Phoenix Bridge Solutions); Brian Lancaster (Design Director); Robert Colbert (Founder, DTP); Ian S. (Founder); Deborah Cleary (Company Co-Founder, NoCodeLab.ai); Neil H. (Managing Director); Matt Kelly Williams (Founder / CEO, Making Software Greener); Steven A. (ECD, Pinwheel Agency); Roxana T. (Founder, CEO, Veiovia Ltd.).
+Sara Simeone (Initiator); Antonio P. (CEO); Magnus Söderberg (CEO, Triolith Games AB); Eric H. (CEO); Bruno De Stefano (Relationship manager); Claire Owen (Founder, COCO Software); Mark H. (Inventor, Phoenix Bridge Solutions); Brian Lancaster (Design Director); Robert Colbert (Founder, DTP); Ian S. (Founder); Deborah Cleary (Company Co-Founder, NoCodeLab.ai); Neil H. (Managing Director); Matt Kelly Williams (Founder / CEO, Making Software Greener); Steven A. (ECD, Pinwheel Agency); Roxana T. (Founder, CEO, Veiovia Ltd.); Bryan Carter (Technology Executive).
 
 ## Crowd-sourced lines
 
